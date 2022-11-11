@@ -1,4 +1,4 @@
-from PIL import ImageGrab
+# from PIL import ImageGrab
 import pyautogui
 import pyperclip
 import time
@@ -13,6 +13,6 @@ pyautogui.hotkey("\n")
 time.sleep(1)
 pyautogui.screenshot()
 pyautogui.screenshot("image.png")
-time.sleep(1)
-screenshot.save("screenshot.png")
+# time.sleep(1)
+# screenshot.save("screenshot.png")
 # pyautogui.hotkey("command", "shift", "3")
