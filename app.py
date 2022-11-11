@@ -16,3 +16,5 @@ screenshot = ImageGrab.grab()
 time.sleep(1)
 screenshot.save("screenshot.png")
 # pyautogui.hotkey("command", "shift", "3")
+
+
